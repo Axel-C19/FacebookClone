@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    background-color: #F0F2F5;
+}
+
+.header{
+    padding: 0px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+
+}
+
+.header-left img{
+    height: 68px;
+    display: flex;
+    padding: 0;
+    margin-left: 18px;
+    align-items: center;
+    margin-top: -22;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.right-icons{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color:#E4E6EB;
+    align-items: center;
+}
+
+.right-icons-img img{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    height: 50px;
+}
+
+.right-icons-img:hover{
+    cursor: pointer;
+}
+
+.right-icons :hover{
+    cursor: pointer;
+    background-color: #DCDCDC;
+}
+
+.header-mid{
+    display: flex;
+    align-items: center;  
+    justify-content: left;
+}
+
+.header-input{
+    display: flex;
+    background-color: #E4E6EB;
+    margin-left: 10px;
+    border-radius: 999px;
+    padding: 10px;
+}
+
+.header-input:hover{
+    cursor:text;
+    background-color: #DCDCDC;
+}
+
+.header-input .material-icons{
+    color: grey;
+}
+
+.header-input input{
+    border: none;
+    outline-width: 0;
+    background-color: transparent;
+    width: 700px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+
+.Sep{
+    background: #dadde1;
+    border-width: 0;
+    color: #dadde1;
+    height: 1px;
+    display: block;
+    flex:.33;
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+
+.conditions{
+    color: gray;
+    font-size: 16px;
+    font-family: Arial;
+    padding: 16px;
+}
+
+
+.home{
+    border-left: 4px solid #2e81f4;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+    
+}
+
+.home:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.home h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.profile h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+    
+}
+
+.profile:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.profile img{
+    border-radius: 50%;
+    height: 30px;
+}
+
+.watch h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.watch:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Market h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.Market{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.Market:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.videogames h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.videogames{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.videogames:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.vertodo h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.vertodo{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.vertodo:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.groups h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.pagina1 h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.pagina1{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.pagina1:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.pagina2 h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.pagina2:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.pagina2{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+.pagina3 h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.pagina3{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.profile3:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.pagina4 h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.pagina4{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.pagina4:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.agario h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.agario{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.agario:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Angrybirds h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.Angrybirds{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.Angrybirds:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Best-Friends h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.Best-Friends{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.Best-Friends:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.Dragon-City h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.Dragon-City{
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.Dragon-City:hover{
+    background-color: #DCDCDC;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.sidepanel .material-icons{
+    color: #2e81f4;
+}
+
+.reel{
+    position: relative;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 1px;
+    width: 120px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.reel:hover{
+    transform: scale(1.07);
+}
+
+.stories-img {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: none;
+    align-items: center;
+    height: 50px;
+}
+
+.reel h4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.stories{
+    display: flex;
+    padding: 10px;
+}
+
+.stories{
+    background-color:white;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 352px;
+    overflow: hidden;
+}
+
+.main-body{
+    display: flex;
+}
+
+.index h4{
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.index-stories{
+    color: #1877f2;
+    padding-left: 9px;
+    display: flex;  
+}
+
+.index-reels{
+    color: #65676b;
+    padding-left: 135px;
+    padding-right: 140px;
+    display: flex;
+}
+
+.index-salas{
+    color: #65676b;
+    display: flex;
+}
+
+.index{
+    display: flex;
+    padding: 70px;
+    margin-left: 352px;
+    margin-top: 40px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 2px;
+}
+.index .material-icons{
+    padding-right: 5px;
+}
